@@ -1,0 +1,51 @@
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 22rem;
+    margin: 10px;
+}
+.flex{
+    display: flex;
+    box-shadow: 0 0 6px 1px rgb(160, 241, 160);
+    border-radius: 6px;
+    margin-top: 25px;
+    margin: auto;
+}
+.flex input[type="text"]{
+    width: 12rem;
+    border: none;
+    text-align: center;
+    color: rgb(2, 160, 2);
+}
+.flex button{
+    width: 2rem;
+    border: none;
+    border-radius: 6px;
+    color: rgb(2, 160, 2);
+    background-color: white;
+}
+
+@media screen and (max-width: 400px){
+    .card{
+        width: 16rem;
+        margin: 6px;
+    }
+    .flex{
+        width: 8rem;
+    }
+    .flex input[type="text"]{
+        width: 4rem;   
+        font-size: 12px;
+    }
+    .flex button{
+        width: 2rem;
+    }
+    .card-title{
+        font-size: 14px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+}

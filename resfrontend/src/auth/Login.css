@@ -1,0 +1,44 @@
+.container-fluid1 .heading{
+    color: rgb(160, 241, 160);
+    font-size: 28px;
+    width: 50%;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px auto;
+    animation: colorChange 3s infinite;
+}
+@keyframes colorChange {
+    0% { color: #333; }
+    50% { color: rgb(160, 241, 160); }
+    100% { color: #333; }
+}
+.login{
+    border: 2px solid rgb(160, 241, 160);
+    padding: 10px 12px;
+    width: 24rem;
+    margin:  35px auto;
+    border-radius: 10px;
+}
+.login:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px 2px rgba(160, 241, 160);
+    transition: 0.1s ease-in-out;
+}
+@media screen and (max-width: 400px){
+    .container-fluid1 .heading{
+        font-size: 16px;
+        width: 244px;
+        padding: 2px 0;
+        margin: 2px auto;
+    }
+    .login{
+        padding: 10px 12px;
+        width: 16rem;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    .form-label{
+        font-size: 14px;
+    }
+    
+}

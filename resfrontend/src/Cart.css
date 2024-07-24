@@ -1,0 +1,35 @@
+.table{
+    margin-top: 35px;
+    width: 40%;
+    margin-left: 35px;
+    border: 2px solid rgb(160, 241, 160);
+}
+.table:hover{
+    box-shadow: 0 0 10px 6px rgb(160, 241, 160);
+    transition: 0.1 ease-in-out;
+}
+.details{
+    margin-left: 65px;
+    margin-top: 35px;
+    border: 2px solid rgb(160, 241, 160);
+    width: 45%;
+    padding: 8px;
+}
+.details:hover{
+    box-shadow: 0 0 10px 6px rgb(160, 241, 160);
+    transition: 0.1 ease-in-out;
+}
+@media screen and (max-width: 400px){
+    .table{
+        margin: 6px 0;
+        width: 16rem;
+    }
+    .table th{
+        font-size: 10px;
+    }
+    .details{
+        margin: 6px 0;
+        width: 16rem;
+        padding: 8px;
+    }
+}
